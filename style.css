@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.Feedback {
+    width: 75%;
+    margin: 20px auto;
+    margin-top: 5%;
+    padding-top: 2px;
+    color: white;
+    height: 200px;
+    border-radius: 2px;
+    background-color: #b49fa7;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Feedback h3 {
+    margin: 7px;
+    padding-top: 10px;
+}
+
+.Feedback p {
+   color: #756069;
+}
+
+label:hover{
+    cursor: pointer;
+}
+/*https://stackoverflow.com/questions/18340057/how-to-display-two-buttons-beside-each-other*/
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+}
+.valg1_1 {
+    padding-top: 3%;
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    color: #75606900;
+    background-color: #75606900;
+    border-color: #75606900;
+}
+.valg1_1:hover {
+    background-color: #75606900;
+    cursor:auto;
+    border-color: #75606900;
+}
+
+.valg1_2 {
+    padding-top: 3%;
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+}
+
+.valg2_1 {
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    float: right;
+    padding-top: 3%;
+}
+
+.valg2_2 {
+    padding-top: 3%;
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+}
+
+.valg3_1 {
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+}
+
+.valg3_2 {
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+}
+
+.valg4_1 {
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+}
+
+.valg4_2 {
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+}
+
+.valg5_1 {
+    padding-top: 1%;
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    flex: auto;
+    float: center;
+}
+
+.valg5_3 {
+    padding-top: 1%;
+    -moz-box-flex:  1 1 auto;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    flex: auto;
+}
+
+button {
+    cursor: pointer;
+    width: 130px;
+    margin: 0 auto;
+    padding: 2px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color:#9a848d;
+    border-color: #756069;
+    margin: 0 auto;
+    padding: 2px;
+    transition: 0.3s ease;
+}
+
+.slut {
+    width: 75%;
+    margin: 20px auto;
+    color: white;
+    height: 200px;
+    border-radius: 2px;
+    background-color: #b49fa7;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.slut h1 {
+    margin: 4 px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.slut p {
+    padding: 10px;
+}
+
+.slut a {
+    display: inline-block;
+    background: rgb(61, 61, 61);
+    outline: none;
+    cursor: pointer;
+    width: 130px;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.slut a:hover {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.404);
+    transition: 0.3s;
+    background-color:#9a848d;
+    width: 160px;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+/*ændring*/
+
+.spg1 {
+    display: block;   
+}
+
+.spg2 {
+    display: none;   
+}
+
+.spg3 {
+    display: none;   
+}
+
+.spg4 {
+    display: none;   
+}
+
+.spg5 {
+    display: none;   
+}
+
+.slut {
+    display: none;
+}

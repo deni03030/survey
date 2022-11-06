@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Feedback</title>
+</head>
+
+<body>
+  <form onsubmit="submitForm()">
+    <!--<header>
+        <h1>Feedback på hjemmeside</h1>
+        style="text-align:justify; padding-left: 45%;"
+    </header>-->
+    <div class="Feedback">
+      <div class="spg1">
+        <h3>Er du tilfreds med vores hjemmeside?</h3>
+        <label for="s1-svar1">
+          <input type="radio" id="s1-svar1" name="s1" value="Ja, det er jeg">
+          Ja, det er jeg
+        </label>
+        <label for="s1-svar2">
+          <input type="radio" id="s1-svar2" name="s1" value="Nej, det er jeg ikke">
+          Nej, det er jeg ikke
+          <div class="error"></div>
+        </label>
+        <label for="s1-svar3">
+          <p>Hvis nej, vær venlig at uddyb i feltet på sidste spørgsmål</p>
+        </label>
+        <div class="flex">
+          <button class="valg1_1">.</button>
+          <ul class="valg1_2">
+            <button> Næste</button>
+          </ul>
+        </div>
+
+
+      </div>
+      <div class="spg2">
+        <h3>Vil du anbefale vores hjemmeside?</h3>
+        <label for="s2-svar1">
+          <input type="radio" id="s2-svar1" name="s2" value="Ja, det vil jeg">
+          Ja, det vil jeg
+        </label>
+        <label for="s2-svar2">
+          <input type="radio" id="s2-svar2" name="s2" value="Nej, det vil jeg ikke">
+          Nej, det vil jeg ikke
+        </label>
+        <label for="s2-svar3">
+          <p>Hvis nej, vær venlig at uddyb i feltet på sidste spørgsmål</p>
+        </label>
+        <div class="flex">
+          <ul class="valg2_1">
+            <button>Tilbage</button>
+          </ul>
+          <ul class="valg2_2">
+            <button>Næste</button>
+          </ul>
+        </div>
+
+      </div>
+      <div class="spg3">
+        <h3>Hvad synes du om kvaliteten af vores hjemmeside fra 1-5? (hvor 5 er bedst)</h3>
+        <label for="s3-svar1">
+          <input type="radio" id="s3-svar1" name="s3" value="En">
+          En
+        </label>
+        <label for="s3-svar2">
+          <input type="radio" id="s3-svar2" name="s3" value="To">
+          To
+        </label>
+        <label for="s3-svar3">
+          <input type="radio" id="s3-svar3" name="s3" value="Tre">
+          Tre
+        </label>
+        <label for="s3-svar4">
+          <input type="radio" id="s3-svar4" name="s3" value="Fire">
+          Fire
+        </label>
+        <label for="s3-svar5">
+          <input type="radio" id="s3-svar5" name="s3" value="Fem">
+          Fem
+        </label>
+        <div class="flex">
+          <ul class="valg3_1">
+            <button>Tilbage</button>
+          </ul>
+          <ul class="valg3_2">
+            <button>Næste</button>
+          </ul>
+        </div>
+
+
+
+      </div>
+      <div class="spg4">
+        <h3>Hvordan fandt du frem til os?</h3>
+        <label for="s4-svar1">
+          <input type="radio" id="s4-svar1" name="s4" value="Youtube">
+          Youtube
+        </label>
+        <label for="s4-svar2">
+          <input type="radio" id="s4-svar2" name="s4" value="Instagram">
+          Instagram
+        </label>
+        <label for="s4-svar3">
+          <input type="radio" id="s4-svar3" name="s4" value="Google">
+          Google
+        </label>
+        <label for="s4-svar4">
+          <input type="radio" id="s4-svar4" name="s4" value="Hørt om os fra en anden">
+          Hørt om os fra en anden
+        </label>
+        <label for="s4-svar5">
+          <input type="radio" id="s4-svar5" name="s4" value="Andet">
+          Andet
+        </label>
+        <div class="flex">
+          <ul class="valg4_1">
+            <button>Tilbage</button>
+          </ul>
+          <ul class="valg4_2">
+            <button>Næste</button>
+          </ul>
+        </div>
+
+      </div>
+      <div class="spg5">
+        <h3>Ydeligere kommentarer, spørgsmål eller bekymringer?</h3>
+        <textarea rows="5" cols="33" id="besked" name="besked"></textarea>
+        <div class="flex">
+          <ul class="valg5_1">
+            <button>Tilbage</button>
+          </ul>
+          <ul class="valg5_3">
+            <button onclick="checkButton()">Afslut</button>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="slut">
+      <h1>Tak for dit svar</h1>
+      <p>Vi er glade for du brugte 5 minutter på at hjælpe os udvikle vores side.</p>
+      <a href="index.html">Start</a>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
